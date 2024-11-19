@@ -21,14 +21,21 @@ public class Ejemplo5 {
             numero = new Scanner(System.in).nextInt();
             switch (numero) {
                 case 1 -> {
-                    
+                    double resultado = num1+num2;
+                    System.out.println("El resultado de la suma es: "+resultado);
                 }
                 case 2 -> {
                     int resta = n1 - n2;
                     System.out.println(resta);
                 }
                 case 3 -> {
-                    
+                    if (num1>num2){
+                        System.out.println("El "+num1+" es mas grande que el "+num2");
+                    } else if (num1<num2) {
+                        System.out.println("El "+num1+" es mas pequeño que el "+num2");
+                    }else{
+                        System.out.println("El "+num1+" es igual que el "+num2");
+                    }
                 }
                 case 4 -> {
                     String r1 = n1 % 2 == 0 ? "Par" : "Impar";
