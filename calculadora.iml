@@ -24,13 +24,18 @@ public class Ejemplo5 {
                     
                 }
                 case 2 -> {
-                    
+                    int resta = n1 - n2;
+                    System.out.println(resta);
                 }
                 case 3 -> {
                     
                 }
                 case 4 -> {
-                    
+                    String r1 = n1 % 2 == 0 ? "Par" : "Impar";
+                    String r2 = n2 % 2 == 0 ? "Par" : "Impar";
+    
+                    System.out.println("El primer numero es: "+r1);
+                    System.out.println("El segundo numero es: "+r2);
                 }
                 case 5 -> {
                     System.out.println("Programa terminado");
