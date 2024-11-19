@@ -25,7 +25,7 @@ public class Ejemplo5 {
                     System.out.println("El resultado de la suma es: "+resultado);
                 }
                 case 2 -> {
-                    int resta = n1 - n2;
+                    int resta = num1 - num2;
                     System.out.println(resta);
                 }
                 case 3 -> {
@@ -38,8 +38,8 @@ public class Ejemplo5 {
                     }
                 }
                 case 4 -> {
-                    String r1 = n1 % 2 == 0 ? "Par" : "Impar";
-                    String r2 = n2 % 2 == 0 ? "Par" : "Impar";
+                    String r1 = num1 % 2 == 0 ? "Par" : "Impar";
+                    String r2 = num2 % 2 == 0 ? "Par" : "Impar";
     
                     System.out.println("El primer numero es: "+r1);
                     System.out.println("El segundo numero es: "+r2);
