@@ -21,21 +21,13 @@ public class Ejemplo5 {
             numero = new Scanner(System.in).nextInt();
             switch (numero) {
                 case 1 -> {
-                    System.out.println("La suma es: " + (num1 + num2));
+                    
                 }
                 case 2 -> {
-                    System.out.println("La resta es: " + (num1 - num2));
+                    
                 }
                 case 3 -> {
-                    if(num1 == num2 ){
-                        System.out.println("Ambos numeros son = iguales" );
-                    } else if (num1 != num2) {
-                        System.out.println("Ambos numeros son = distintos");
-                    } else if (num1 > num2) {
-                        System.out.println("El primer numero es mayor");
-                    } else {
-                        System.out.println("El segundo numero es mayor");
-                    }
+                    
                 }
                 case 4 -> {
                     
